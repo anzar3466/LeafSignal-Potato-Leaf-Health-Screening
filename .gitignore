@@ -1,0 +1,34 @@
+# Python environments and caches
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+
+# Training data and source excluded from initial publication
+/data/
+/training.ipynb
+
+# Frontend dependencies and generated output
+frontend/node_modules/
+frontend/build/
+frontend/coverage/
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
+frontend/.env
+frontend/.env.*
+!frontend/.env.example
+
+# IDE and operating-system files
+.idea/
+.DS_Store
+
+# Unused legacy models
+/potatoes.h5
+/models/1.keras
+
